@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    padding-top: 300px;
+}
+
+.citat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 1px lightgray;
+    border-radius: 7px;
+    padding: 100px 25px 150px 25px;
+    background-color: whitesmoke;
+    width: 243px;
+    height: 100px;
+}
+.citat-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.citat-box__text{
+    font-weight: 600;
+    font-style: italic;
+}
+.citat-box__person{
+    color: rgb(100, 97, 97);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: inherit;
+}
+
+footer{
+    margin-top: 100px;
+    margin-bottom: -140px;
+    
+}
+.citat-navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100px;
+    margin-top: 10px;
+}
+
+.citat-navigation__button{
+    border: solid rgb(168, 159, 159) 1px;
+    border-radius: 10px;
+    width: 3px;
+    height: 3px;
+    padding: 4px;
+    background-color: rgb(168, 159, 159);
+}
+.citat-navigation__button.active{
+    background-color: black;
+}
